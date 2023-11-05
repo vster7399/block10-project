@@ -6,3 +6,8 @@ h2 {
     color: darkgoldenrod;
     text-align: center;
 }
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
