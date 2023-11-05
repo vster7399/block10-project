@@ -44,16 +44,27 @@ ul {
     list-style-position: inside;
 }
 
-.grid-wrapper {
-    float: left;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    column-gap: 1em;
-    row-gap: 1 em;
+.alpha {
+  display: flex;
+  position: absolute;  
+  width: 15%;
+  height: 97vh;
+  padding: 0px;
+  border: 2px solid red;
+  background-color: darkred;
+  margin: 0px 0px 0px;
+  z-index: 1;
 }
 
-.one {
-    background-color: black;
+.bravo {
+  display: flex;
+  position: absolute;
+  right: .75%;
+  width: 15vw;
+  height: 97vh;
+  padding: 0px;
+  border: 2px solid green;
+  background-color: darkgreen;
+  margin: 0px 0px 0px;
+  z-index: 0;
 }
