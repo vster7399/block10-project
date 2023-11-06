@@ -29,53 +29,16 @@ nav a {
   color:black;
 }
 nav a:hover {
-  background-color:rgb(228, 204, 84);
+  background-color:rgb(247, 247, 247);
 }
 
 h2 {
-    color: rgb(203, 147, 4);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 ul {
     text-align: center;
     list-style-position: inside;
+    list-style: none;
 }
-
-.alpha {
-    display: flex;
-    position: absolute;  
-    width: 15%;
-    height: 99vh;
-    padding: 0px;
-    border: 2px solid gray;
-    background-color: darkslategrey;
-    margin: 0px 0px 0px;
-    z-index: 0;
-  }
-
-.bravo {
-    display: flex;
-    position: absolute;
-    right: .0%;
-    width: 15vw;
-    height: 99vh;
-    padding: 0px;
-    border: 2px solid gray;
-    background-color: darkslategray;
-    margin: 0px 0px 0px;
-    z-index: 0;
-  }
-
-.charlie {
-    display: flex;
-    position:absolute;
-    right: 15%;
-    width: 72vw;
-    height: 99vh;
-    padding: 0px;
-    border: 2px solid goldenrod;
-    background-color: lightgoldenrodyellow;
-    margin: 0px 0px 0px;
-    z-index: 0;
-  }

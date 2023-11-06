@@ -7,46 +7,77 @@
     <script src="javascript.js"></script>
     <title>Personal Website</title>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-      
-      
-<h2></h2>
+    <style>
+      * {
+        box-sizing: border-box; 
+      }
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+      }
+      #main {
+        display: flex;
+        flex: 1;
+      }
+      #main > article {
+        flex: 1;
+        
+      }
+      #main > nav, 
+      #main > aside {
+        flex: 0 .5 20vw;
+        background: rgb(0, 53, 86);
+      }
+      #main > nav {
+        order: -1;
+      }
+      header, footer {
+        background: rgb(239, 207, 164);
+        height: 20vh;
+      }
+      header, footer, article, nav, aside {
+        padding: 1em;
+      }
+      </style>
 
+      <body>
+        <header><nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <div id="main">
+          <article>
+            <ul>
+             <li><div class="image1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2snY2-VlIwNEfpzRm00OoHLRgCk8gIb5hQ&usqp=CAU" alt="The Wild Thornberrys">
+            </li>  
+             <li><h2>"The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars."</h2>
+            </li>
+             <li><h2>-Jack Kerouac</h2>
+            </li>
+          </article>
+          <nav></nav>
+          <aside></aside>
+        </div>
+
+        <footer><a href="https://www.linkedin.com/in/shayparrish/" class="social-icon si-rounded si-small si-linkedin">
+          <i class="icon-linkedin"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAACPCAMAAAD0vXihAAAAZlBMVEX///8AZsgAWcS8yekAZMcAYscAX8atv+ZLec74+/4AW8V0nNlejdSSruDj6/c8ec7O2/CIpNyYsuEybMoAVMO7zevF1O5umNhRgdDX4fM2cszd5vW1xeju8/osbspchdEAT8JylNeCTKJDAAAC9UlEQVR4nO2b7XaiMBBADSZRUooIBAFF6/u/ZMFtIRLcXScjpD1z/wEq90y+k3G1IgiCIAiCIAiCIAjiFxHGVVLo9VNoXSRVHL5ARh+29ZlLFTyFkoKf6+1B4yrFe5FL3sKep/uazMU+RrMJUykhJndWUqZIMQrLwNXmZhSUKEJVJhFsOmRWueuEaDqdkHOEwhJPpxVyLrI0QNRhLEjddGLnhnUPl27Nfo9ZWh1y76ITCtzwtAESLjVI58g6jOXaweeAXVxtgR3gOuEWu7jaAtvCCyyuX+BTw1tYdZ7waUdrl06AOwwaycQEQ50vh2spBNiHJ2Cfwn5r/nYLd7FTUCFZgH201byG1hpBm56CN3g9DoIaGmuTAStRsAb7rEeDKc+Ow0PoSIvpUxoPY2DfjegjIuNhA6xAmPG5mD4elJfZ1yfLlxeTp+FhBOwSMX141j+z+6YFfJjcfbV4nUPHMFQfJvi+apqihA+puD6Mqzz/yMHDKbqPM7/bh/eMbnx/QLTlmefB4/qF6iNkz+2F/P6aS1W+6yQpNpFQD+oYpk9g9Ie3ub7sL2PJeFBvhg5cR9NdAqrPZuzTv/8ohRjtOJ2yqRDN5ROI4/j7x91EJz6Xz+Q6prYjNJNPZUWnI7E3AGbyeYC9QbKsT/Phl4+9JTGrT9g0zf0da800o0+YRjWrryfznrUnMZ9PkinRHQ6oixmjcimfsB+xgqvxI+N59mw+16HmKmPPYCmfmA0FI9+X9ymM9ZgwFtZL+aRGwxa75X3eyefH+nDPfHyLD/lQ/SEf8iGfn+ej4D722gnBR8LPvwprbfl4P+p+fviX+aqAnw9a56fi8tZzO+sVw7W5zuLn4f5oPehyfmqfL4/3D9n4+vutD+53qvDzZd/O31+TnwDW8S5/w7v8Ft/yf3zLj/Iuf8y3/Drv8g9XjV/5md7lr2Lm9zb/ftl/CfmV/7zyLT+84yt/XjyfQM8z/Pz5PwD+X7B+1f8LCIIgCIIgCIIgCIJYjk9H9DzwbjfQDQAAAABJRU5ErkJggg==" style="width: 120px; height: 90px;">
+       </a></footer>
+      </body>
+
+    
+      
 </head>
-    <body style="background-color:rgba(234, 219, 51, 0.376);text-align:center">
-    </body>
-    
-    <!--<div class="image1">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt2snY2-VlIwNEfpzRm00OoHLRgCk8gIb5hQ&usqp=CAU" alt="The Wild Thornberrys">
-        <p class="image-name"></p>
-      </div>
-    
-      <h2>"The only people for me are the mad ones, the ones who are mad to live, mad to talk, mad to be saved, desirous of everything at the same time, the ones who never yawn or say a commonplace thing, but burn, burn, burn like fabulous yellow roman candles exploding like spiders across the stars."</h2>
-        <h2>-Jack Kerouac</h2>-->
-
-        <div class="alpha">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-  
-        <div class="bravo">
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-
-        <div class="charlie">
-          <div></div>
-          <div></div>
-          <div>-Jack Kerouac</div>
-        </div>
+<body>
+</body>
+</html>
         
 </html>
