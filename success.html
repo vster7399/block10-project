@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="javascript.js"></script>
+    <title>Personal Website</title>
+
+    <style>
+      * {
+        box-sizing: border-box; 
+      }
+      body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        margin: 0;
+      }
+      #main {
+        display: flex;
+        flex: 1;
+      }
+      #main > article {
+        flex: 1;
+        
+      }
+      #main > nav, 
+      #main > aside {
+        flex: 0 .5 20vw;
+        background: rgb(0, 53, 86);
+      }
+      #main > nav {
+        order: -1;
+      }
+      header, footer {
+        background: rgb(239, 207, 164);
+        height: 20vh;
+      }
+      header, footer, article, nav, aside {
+        padding: 1em;
+      }
+      </style>
+
+      <body>
+        <header><nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div id="main">
+        <article style="text-align: center;">
+          Form successfully submitted! Thank you! I will be in contact soon.
+        </article>
+        <nav></nav>
+        <aside></aside>
+      </div>
